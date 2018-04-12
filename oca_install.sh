@@ -51,7 +51,7 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod347 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod349 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_fiscal_year_closing /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_fiscal_year_closing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner_mercantil /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_pos /opt/odoo/custom/addons
@@ -61,7 +61,7 @@ sudo ln -s /opt/odoo/partner-contact/base_location /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_location_geonames_import /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/reporting-engine/report_custom_filename /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/reporting-engine/report_xls /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/server-tools/disable_openerp_online /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/disable_odoo_online /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
