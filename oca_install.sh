@@ -24,6 +24,8 @@ sudo ln -s /opt/odoo/account-financial-tools/account_renumber /opt/odoo/custom/a
 sudo ln -s /opt/odoo/account-payment/account_due_list /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-payment/account_due_list_payment_mode /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_banking_mandate /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_payment_order /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/bank-payment/account_payment_mode /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/bank-payment/account_banking_pain_base /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/bank-payment/account_banking_payment_export /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/bank-payment/account_banking_payment_transfer /opt/odoo/custom/addons
@@ -51,7 +53,7 @@ sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod340 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod347 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat_mod349 /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_aeat /opt/odoo/custom/addons
-sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_fiscal_year_closing /opt/odoo/custom/addons
+#sudo ln -s /opt/odoo/l10n-spain/l10n_es_account_fiscal_year_closing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner_mercantil /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_partner /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/l10n_es_pos /opt/odoo/custom/addons
@@ -64,4 +66,7 @@ sudo ln -s /opt/odoo/partner-contact/base_partner_sequence /opt/odoo/custom/addo
 sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/disable_odoo_online /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
+
+
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
