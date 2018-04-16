@@ -12,6 +12,9 @@ sudo git clone https://github.com/OCA/server-tools.git -b 10.0 /opt/odoo/server-
 sudo git clone https://github.com/OCA/web.git -b 10.0 /opt/odoo/web
 sudo git clone https://github.com/OCA/bank-payment.git -b 10.0 /opt/odoo/bank-payment
 sudo git clone https://github.com/OCA/bank-statement-import.git -b 10.0 /opt/odoo/bank-statement-import
+# Repositorio instalador
+sudo git clone https://github.com/cursoerp2018/install.git -b 10.0 /opt/odoo/install
+
 
 # 2.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
@@ -69,6 +72,6 @@ sudo ln -s /opt/odoo/reporting-engine/report_xlsx /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/disable_odoo_online /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/mass_editing /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/server-tools/date_range /opt/odoo/custom/addons
-
-
 sudo ln -s /opt/odoo/web/web_export_view /opt/odoo/custom/addons
+# Módulo instalador
+sudo ln -s /opt/odoo/install/oca_install /opt/odoo/custom/addons
