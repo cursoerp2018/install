@@ -16,6 +16,7 @@ sudo git clone https://github.com/OCA/bank-statement-import.git -b 10.0 /opt/odo
 # 2.-Acceso directo
 sudo ln -s /opt/odoo/account-financial-reporting/account_export_csv /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-reporting/account_move_line_report_xls /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/account-financial-reporting/account_tax_balance /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_chart_update /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_constraint_chronology /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/account-financial-tools/account_invoice_currency /opt/odoo/custom/addons
@@ -37,6 +38,7 @@ sudo ln -s /opt/odoo/knowledge/attachment_preview /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/attachments_to_filesystem /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/document_page /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/knowledge/document_url /opt/odoo/custom/addons
+sudo ln -s /opt/odoo/knowledge/knowledge /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting_xlsx /opt/odoo/custom/addons
 sudo ln -s /opt/odoo/l10n-spain/account_balance_reporting /opt/odoo/custom/addons
 #sudo ln -s /opt/odoo/l10n-spain/account_refund_original /opt/odoo/custom/addons
